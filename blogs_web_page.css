@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,900;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,600;1,300&display=swap');
+body {
+    margin: 0;
+    background-color: #f2f6ff;
+}
+
+/* Header section css begins Here  */
+
+.navitems {
+    display: flex;
+}
+
+#logo {
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    width: 130px;
+    font-size: 32px;
+    color: #0084ff;
+    font-weight: 900;
+}
+
+.category {
+    border: none;
+    margin-left: 30px;
+    width: 150px;
+    color: #000;
+    font-weight: 500;
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 1.7;
+    cursor: pointer;
+}
+
+.categoryitem {
+    border: none;
+    background-color: #fff;
+    font-size: 16PX;
+    width: 10px;
+    letter-spacing: 1.7px;
+    cursor: pointer;
+}
+
+#captionforlogo {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    font-weight: 500;
+}
+
+#categorydropdownsection {
+    padding: 16px 82px;
+    letter-spacing: 0.9px;
+    font-weight: 500;
+    font-style: normal;
+}
+
+#topbar {
+    box-shadow: 0 0 4px #ccc;
+    padding: 16px 78px;
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+}
+
+/* Header section css ends Here  */
+
+/* categories section css begins Here  */
+
+#mainsection {
+    display: inline-block;
+    width: 65%;
+    height: 100%;
+    /* background-color: aqua; */
+    margin: 5px 17.25%;
+    /* padding: 16px; */
+}
+
+#mainsection h1 {
+    color: #000;
+    font-weight: 600;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    line-height: 1.25;
+    letter-spacing: 0.6px;
+    margin-top: 5px;
+}
+
+#filtersection {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+#filtericon {
+    height: 25px;
+    width: 25px;
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+#filtertext {
+    margin-left: 8px;
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+}
+
+.categories {
+    border: 1px solid #0084ff;
+    /* font-size: 0.9em; */
+    border-radius: 15px;
+    text-decoration: none;
+    padding: 2px 14px;
+    color: #0084ff;
+    width: auto;
+    margin: 5px;
+    cursor: pointer;
+    display: inline-block;
+    transition: all 0.2s ease-in-out;
+    font-family: Raleway, sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+#activecategory {
+    color: #fff;
+    background-color: #0084ff;
+}
+
+/* categories section css endsHere  */
+
+/* blog-post cards items css starts here */
+
+.blogitem {
+    width: calc(33.3% - 20px - 3px);
+    box-shadow: 0px 4px 4px#ccc;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-left: 9px;
+    margin-right: 9px;
+    border: 1px solid rgba(0, 168, 255, .3);
+    border-radius: 5px;
+    cursor: pointer;
+    height: 380px;
+}
+
+.imagesection {
+    width: 100%;
+    height: 176px;
+}
+
+.blogimage {
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.textsection {
+    padding: 10px 24px;
+}
+
+.blogtitle {
+    font-size: 18px;
+    text-align: left;
+    margin: 0px;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+}
+
+.blogauthor {
+    padding-top: 4px;
+    display: flex;
+    margin-top: 5px;
+}
+
+.author {
+    color: #0096ff;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Raleway', sans-serif;
+}
+
+.blogdate {
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 14px;
+    font-weight: 500;
+    /* font-family: 'Raleway', sans-serif; */
+    /* font-style: normal; */
+}
+
+.bloginfo {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.43;
+    letter-spacing: 0.35px;
+    color: rgba(0, 0, 0, .6);
+    margin: 4px 0;
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.43;
+    padding-top: 6px;
+}
+
+section {
+    margin-top: 15px;
+}
+
+/* blog-post cards items css ends here */
+
+/* footer items css starts here */
+
+.fotter {
+    background-color: #172146;
+    padding: 18px 16%;
+    text-align: center;
+    color: #fff;
+    font-weight: 500;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* footer items css ends here */
